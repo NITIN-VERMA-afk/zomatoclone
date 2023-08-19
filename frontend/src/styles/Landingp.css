@@ -1,0 +1,198 @@
+.container{
+    width: 100%;
+    height: 80vh;
+   
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+    color: white;
+}
+.landingpage-center p{
+  font-size: 3rem;
+  padding-top: 5px;
+}
+
+
+.nav ul{
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 22%;
+    gap: 20px;
+
+  
+    
+}
+.nav ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+.landingpage-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    
+
+}
+.landingpage-center h1{
+   font-size: 4rem;
+}
+
+.p-locations{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2%;
+   font-size: 5rem;
+}
+.sub-text-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 10px 200px;
+}
+
+.g-container {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.res-loaction{
+  margin: 10% 0;
+}
+
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn{
+  padding: 5px;
+  margin: 2px;
+  
+}
+.boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  margin: 20px;
+  padding:2px 40px;
+  
+
+}
+.box1{
+  width: 100px;
+  height: 200px;
+
+  
+}
+.box2{
+  width: 100px;
+  height: 200px;
+  
+ 
+}
+.box3{
+  width: 200px;
+  height: 200px;
+ 
+ 
+}
+.box4{
+  width: 100px;
+  height: 200px;
+ 
+  
+}
+.box5{
+ width: 200px;
+ height: 200px;
+ 
+  
+}
+.footer-copyright{
+  font-size: 14px;
+  text-align: center;
+}
+.ul-items{
+gap:5px;
+color: gray;
+display: flex;
+flex-direction: column;
+justify-items: flex-start;
+align-items: flex-start;
+}
+ #icons-footer{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  color: white;
+
+
+}
+.li-round{
+  background-color: black;
+  border-radius: 50px;
+  padding: 3px;
+  margin: 4% 0;
+}
+.app-store{
+  height: 20%;
+  width: 60% ;
+  color: white;
+  background-color: #213B50;
+  padding: 2px 6px;
+  margin: 10px 0;
+  border-radius: 12px;
+}
+.google-app{
+  height: 20%;
+  width: 60% ;
+  color: white;
+  background-color: #213B50;
+  padding: 2px 6px;
+  margin: 10px 0;
+  border-radius: 12px;
+
+}
+.con{
+  padding-left: 14%;
+  
+}
+.all-con-div{
+  margin: 3% 0;
+}
+footer{
+  background-color: #F8F8F8;
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+    width: 100%;
+    height: 30vh;
+  }
+  .container ul{
+    padding-top: 10px;
+  }
+  .p-locations{
+    font-size: 1.5rem;
+  }
+  .sub-text-landing{
+    font-size: 1rem;
+  text-align: center;
+  }
+  
+
+  }
