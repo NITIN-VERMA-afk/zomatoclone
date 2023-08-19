@@ -4,6 +4,10 @@ import Nopage from "./pages/Nopage";
 import Addrestaurent from "./pages/Addrestaurent";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup"
+import './styles/Landingp.css'
+import './styles/Addr.css'
+
+
 
 
 function App() {

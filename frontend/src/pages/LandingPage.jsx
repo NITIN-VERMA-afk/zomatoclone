@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import "../styles/Landingp.css";
+
+
 import Glocations from "../componets/Glocations";
 import Locations from "../Data/Locations";
 import Contries from "../Data/Contries";
