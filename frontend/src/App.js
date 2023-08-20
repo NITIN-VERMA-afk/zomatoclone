@@ -6,6 +6,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup"
 import './styles/Landingp.css'
 import './styles/Addr.css'
+import './styles/Cardstyle.css'
+import './styles/Loginstyle.css'
 
 
 

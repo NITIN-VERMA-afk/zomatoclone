@@ -1,0 +1,22 @@
+.card{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+}
+.logo-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 360%;
+}
+       
+.card-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
