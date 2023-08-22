@@ -1,8 +1,8 @@
 .loginpage{
-      margin:10% 40%;
+      margin:0% 40%;
     border: 1px solid black;
     width: 400px;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
    
@@ -17,4 +17,37 @@
 }
 .top-login p{
     font-size: 40px;
+}
+#phoneno{
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+.otp{
+    margin:10px 40px ;
+    padding: 10px 45px;
+    border-radius: 10px;
+    background-color: #EF4F5F;
+    color: white;
+}
+.or{
+    text-align:center;
+}
+.con-email{
+    padding: 10px 40px;
+    background-color: white;
+    margin: 10px 40px;
+
+}
+.con-google{
+    padding: 10px 40px;
+    background-color: white;
+    margin: 10px 40px;
+
+
+}
+.new{
+    margin:60px 0 0 0 ;
+}
+.agree{
+    padding:0px 10px;
 }

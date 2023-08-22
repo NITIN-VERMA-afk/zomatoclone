@@ -1,19 +1,15 @@
 import React from 'react'
+import Contries from "../Data/Contries.json"
 
-import LocationsData from "../Data/LocationsData.json"
-
-
-
-const Glocations = (props) => {
-  const rows = [];
-  for (let i = 0; i < LocationsData.length; i += 3) {
-    rows.push(LocationsData.slice(i, i + 3));
-  }
-  
-  
+const Count = (props) => {
+    const rows = [];
+    for (let i = 0; i < Contries.length; i += 3) {
+      rows.push(Contries.slice(i, i + 3));
+    }
+        
   return (
     <>
-     <div className="app">
+       <div className="app">
       {rows.map((row, rowIndex) => (
         <div className="row" key={rowIndex}>
           {row.map(location => (
@@ -25,13 +21,10 @@ const Glocations = (props) => {
         </div>
       ))}
     </div>
-   
-
-  
-   
       
     </>
   )
 }
 
-export default Glocations
+export default Count
+

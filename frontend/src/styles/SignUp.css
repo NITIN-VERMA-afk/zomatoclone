@@ -1,0 +1,56 @@
+.signup{
+    margin:0 40%;
+   
+    border: 1px solid black;
+    width: 400px;
+    height: 450px;
+   
+  
+}
+.sign-up-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.input-boxes{
+    display: flex;
+    flex-direction: column;
+
+}
+.fullname{
+    padding: 10px 40px;
+    margin: 10px 10px;
+}
+.create-account{
+    padding: 5px 140px;
+    margin: 10px 15px;
+}
+.sign-up-continue{
+    padding: 5px 130px;
+    margin: 10px 15px;
+    text-align: center;
+
+}
+.agree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    gap: 5px;
+}
+.aha{
+    margin-top: 30px;
+}
+.btn-x{
+    background: none;
+    border: none;
+}
+.fullscreen{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    width: 100wv;
+    height: 100vh;
+    padding-top: 10%;
+   
+}

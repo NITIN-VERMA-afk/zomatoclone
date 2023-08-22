@@ -1,9 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
+
 import Card from "../componets/Card";
 import Footer from "../componets/Footer";
 import { NavLink } from "react-router-dom";
 
 const Addrestaurent = () => {
+  const[more,setmore]=useState(false);
   return (
     <>
       <div className="hero">
@@ -19,25 +21,25 @@ const Addrestaurent = () => {
               <li>
                 <button className="login">
                   {" "}
-                  <NavLink
+                  <NavLink to="/login"
                     style={({ isActive }) =>
                       isActive
                         ? {
                             color: "white",
                             background: "none",
                           }
-                        : { color: "whitesmoke", background: "transparent" }
+                        : { color: "whitesmoke", background: "transparent",textDecoration:'none' }
                     }
                   >
-                    {" "}
+                   
                     Login
-                  </NavLink>{" "}
+                  </NavLink>
                 </button>
               </li>
               <li>
                 <button className="cre-acc">
-                  {" "}
-                  <NavLink
+              
+                  <NavLink  to='/signup'
                     style={({ isActive }) =>
                       isActive
                         ? {
@@ -48,13 +50,13 @@ const Addrestaurent = () => {
                         : {
                             color: "whitesmoke",
                             background: "transparent",
-                            listStyle: "none",
+                            textDecoration:'none',
                           }
                     }
                   >
-                    {" "}
-                    Create Account{" "}
-                  </NavLink>{" "}
+                   
+                    Create Account
+                  </NavLink>
                 </button>
               </li>
             </ul>
@@ -143,7 +145,7 @@ const Addrestaurent = () => {
         <div className="data">
           <div className="box-1">
             <span>
-              <i class="fa-solid fa-globe"></i> 1000+ cities <br /> in india{" "}
+              <i class="fa-solid fa-globe"></i> 1000+ cities <br /> in india
             </span>
           </div>
           <div className="box-2">
@@ -172,15 +174,30 @@ const Addrestaurent = () => {
       <div className="section-5">
         <h1>Alredy have your restaurant listed?</h1>
         <p>Seach here and claim the ownership of your restaurent</p>
-        <span>
-          {" "}
-          <button>Delhi ncr</button> <input type="search" name="" id="" />{" "}
+        <span className="">
+         
+          <button className="delhi-ncr">Delhi ncr</button> <input  className='delhi-ncr-input' placeholder="search for your restaurent ,eg Greenland cafe" type="search" name="" id="" />{" "}
         </span>
       </div>
 
+      <div className="start-your-jurny">
+        <h1>start your journey with zomato </h1>
+        <p>create your restaurent page with and resgister for online order</p>
+        <button className="start-btn">start now</button>
+      </div>
+
+
+      <div className="frequently">
+        <button onClick={()=>{setmore(!more)}}><p>What will Zomato charge me for creating a page on its platform?</p></button>
+        <p style={more ? {display:"block"}: {display:"none"}}>Creating a restaurant page on Zomato is free of cost. You can maintain your page by replying to reviews and do a lot more without any charges.</p>
+      </div>
+
+       
+
+
       <div className="find-restraurent">
         <div className="find-left">
-          {" "}
+         
           <h1> cannot find your favourite restaurant on zomato?</h1>
           <p>sumbit the details and our team get the restraurent onboard</p>
         </div>

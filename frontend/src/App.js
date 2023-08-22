@@ -8,6 +8,7 @@ import './styles/Landingp.css'
 import './styles/Addr.css'
 import './styles/Cardstyle.css'
 import './styles/Loginstyle.css'
+import "./styles/SignUp.css"
 
 
 

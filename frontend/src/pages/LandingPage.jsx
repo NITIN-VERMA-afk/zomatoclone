@@ -1,20 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
-
-
 import Glocations from "../componets/Glocations";
-import Locations from "../Data/Locations";
-import Contries from "../Data/Contries";
+import Country from "../componets/Country"
+
 import Footer from "../componets/Footer";
 
 const LandingPage = () => {
-  const newposiotion = Locations.map((location) => {
-    return <Glocations key={location.key} name={location.name} />;
-  });
-  const newCOntries = Contries.map((Contries) => {
-    return <Glocations key={Contries.key} name={Contries.name} />;
-  });
+
 
   return (
     <>
@@ -29,7 +21,11 @@ const LandingPage = () => {
                       color: "white",
                       background: "none",
                     }
-                  : { color: "whitesmoke", background: "transparent" }
+                  : {
+                      color: "whitesmoke",
+                      background: "transparent",
+                      textDecoration: "none",
+                    }
               }
             >
               <li>Add restaurant</li>
@@ -42,7 +38,11 @@ const LandingPage = () => {
                       color: "white",
                       background: "none",
                     }
-                  : { color: "whitesmoke", listStyle: "none" }
+                  : {
+                      color: "whitesmoke",
+                      listStyle: "none",
+                      textDecoration: "none",
+                    }
               }
             >
               <li>Log in </li>
@@ -55,7 +55,11 @@ const LandingPage = () => {
                       color: "white",
                       background: "none",
                     }
-                  : { color: "whitesmoke", background: "transparent" }
+                  : {
+                      color: "whitesmoke",
+                      background: "transparent",
+                      textDecoration: "none",
+                    }
               }
             >
               <li>sign up</li>
@@ -82,14 +86,14 @@ const LandingPage = () => {
         <p> just like you, to find your next great meal.</p>
       </div>
 
-      <div className="res-loaction">{newposiotion}</div>
+      <div className="res-loaction"><Glocations/></div>
       <div className="con">
         <h1>All Countries </h1>
       </div>
-      <div className="all-con-div">{newCOntries}</div>
+      <div className="all-con-div"><Country/> </div>
 
       {/* footer start here */}
-     <Footer/>
+      <Footer />
     </>
   );
 };

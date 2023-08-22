@@ -70,7 +70,7 @@
     width: 500px;
     height: 300px;
     position: absolute;
-    left: 30%;
+    left: 33%;
     bottom: 5%; 
     background-color: gray;
      padding: 20px 20px;
@@ -194,4 +194,29 @@
     background-color: #2781E7;
     margin-bottom: 5px;
 
+}
+.delhi-ncr{
+    padding: 10px 20px;
+
+}
+.delhi-ncr-input{
+    padding: 10px 200px;
+    text-align:start ;
+
+}
+.start-your-jurny{
+    background-image: url( https://www.zomato.com/partner-with-us/static/media/StartJourney.7cfaaf0a.jpg);
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 300px;
+    color: white;
+    margin: 0 0 0 25%;
+    padding: 40px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.start-btn{
+    padding: 10px;
+    width: 130px;
 }
