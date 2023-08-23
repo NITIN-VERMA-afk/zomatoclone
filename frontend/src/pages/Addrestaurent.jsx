@@ -6,6 +6,10 @@ import { NavLink } from "react-router-dom";
 
 const Addrestaurent = () => {
   const[more,setmore]=useState(false);
+  const[more2,setmore2]=useState(false);
+  const[more3,setmore3]=useState(false);
+  const[more4,setmore4]=useState(false);
+
   return (
     <>
       <div className="hero">
@@ -17,7 +21,7 @@ const Addrestaurent = () => {
           </div>
           <div className="list">
             <ul>
-              <li>Advertise</li>
+              <NavLink to="/advertisepage">  <button className="btn-advertise"> Advertise </button>  </NavLink>
               <li>
                 <button className="login">
                   {" "}
@@ -82,6 +86,7 @@ const Addrestaurent = () => {
           </div>
         </div>
       </div>
+      <div className="get-startedBox-box"> 
       <div className="get-startedBox">
         <h1>get starting with online odering</h1>
         <p> Please keep the documents ready for a smooth signup</p>
@@ -134,12 +139,13 @@ const Addrestaurent = () => {
           </ul>
         </div>
       </div>
+      </div>
       <div className="partnerZomato">
         <h1>why u should partner with zomato ?</h1>
-        <h5>
+        <p>
           Zomato enables you to get 60% more revenue, 10x new customers and
           boost your brand
-        </h5>
+        </p>
         <p>visibility by providing insights to improve your business.</p>
 
         <div className="data">
@@ -188,8 +194,20 @@ const Addrestaurent = () => {
 
 
       <div className="frequently">
-        <button onClick={()=>{setmore(!more)}}><p>What will Zomato charge me for creating a page on its platform?</p></button>
+        <button onClick={()=>{setmore(!more)}}><p className="move-p">What will Zomato charge me for creating a page on its platform?</p></button>
         <p style={more ? {display:"block"}: {display:"none"}}>Creating a restaurant page on Zomato is free of cost. You can maintain your page by replying to reviews and do a lot more without any charges.</p>
+      </div>
+      <div className="frequently">
+        <button onClick={()=>{setmore2(!more2)}}><p className="move-p" >What will Zomato charge me for creating a page on its platform?</p></button>
+        <p style={more2 ? {display:"block"}: {display:"none"}}>Creating a restaurant page on Zomato is free of cost. You can maintain your page by replying to reviews and do a lot more without any charges.</p>
+      </div>
+      <div className="frequently">
+        <button onClick={()=>{setmore3(!more3)}}><p className="move-p">What will Zomato charge me for creating a page on its platform?</p></button>
+        <p style={more3 ? {display:"block"}: {display:"none"}}>Creating a restaurant page on Zomato is free of cost. You can maintain your page by replying to reviews and do a lot more without any charges.</p>
+      </div>
+      <div className="frequently">
+        <button onClick={()=>{setmore4(!more4)}}><p className="move-p">What will Zomato charge me for creating a page on its platform?</p></button>
+        <p style={more4 ? {display:"block"}: {display:"none"}}>Creating a restaurant page on Zomato is free of cost. You can maintain your page by replying to reviews and do a lot more without any charges.</p>
       </div>
 
        

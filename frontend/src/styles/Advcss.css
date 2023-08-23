@@ -1,0 +1,66 @@
+.top-adv{
+    width: 100%;
+    height: 500px;
+   background-image: url(https://thoth.pickvisa.com/wp-content/uploads/2021/12/ced6bc9373214cd38d7d5055b4cf870c-1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.top-nav-adv{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    color: white;
+    padding: 10px 0 0 0;
+}
+.ad-right-ad ul{
+    display: flex;
+    gap: 10px;
+   
+
+}
+.ad-btn-1{
+    background: none;
+    color: white;
+}
+.content-ad{
+    color: white;
+    margin: 10% 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+.cd-btn{
+    width: 130px;
+    padding: 8px;
+     background-color: #EF4F5F;
+     color: white;
+}
+.h1-1200{
+    text-align: center;
+    margin: 8%;
+}
+.h2-1200{
+    text-align: center;
+    margin: 10px;
+}
+.why-advertise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.w-a-left{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.h1-1200-ad{
+    text-align: center;
+    margin: 10px;
+}
+.owadervtise{
+    display: flex;
+}
