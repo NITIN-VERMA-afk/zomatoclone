@@ -61,6 +61,81 @@
     text-align: center;
     margin: 10px;
 }
-.owadervtise{
+.howadervtise{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.howad-img{
+    width: 300px;
+    height: 600px;
+}
+.text-howad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    padding: 30px;
+    text-align: center;
+}
+.osc{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.sub-footer-ad{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://b.zmtcdn.com/contact-us-form-bgfcdedcf4a3df21e53e77114327898f831627911153.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+}
+.container-sub-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 40px;
+
+}
+.form-ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0px;
+    
+
+
+}
+.form-ad input{
+    padding: 6px 80px;
+}
+.sub{
+    text-align: start;
+}
+.getzomato-foot{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.img5{
+    height: 500px;
+    width: 300px;
+}
+
+

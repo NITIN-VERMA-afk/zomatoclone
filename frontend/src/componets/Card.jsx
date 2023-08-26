@@ -1,15 +1,15 @@
 import React from 'react'
 
 
-const Card = () => {
+const Card = ({name,title,peragraph,logo}) => {
   return (
     <>
       <div className="card">
-        <div className="logo-c"> logo </div>
+        <div className="logo-c"> {logo} </div>
         <div className="card-bot">
-        <h1>Step1</h1>
-        <h5>create your page on  zomato</h5>
-        <p>Help user discover your place by creating listing on zomato </p>
+        <h1>{name}</h1>
+        <h5>{title}</h5>
+        <p>{peragraph} </p>
         </div>
        
 

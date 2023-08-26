@@ -1,13 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Glocations from "../componets/Glocations";
-import Country from "../componets/Country"
+import Country from "../componets/Country";
 
 import Footer from "../componets/Footer";
 
 const LandingPage = () => {
-
-
   return (
     <>
       <div className="container">
@@ -86,11 +84,15 @@ const LandingPage = () => {
         <p> just like you, to find your next great meal.</p>
       </div>
 
-      <div className="res-loaction"><Glocations/></div>
+      <div className="res-loaction">
+        <Glocations />
+      </div>
       <div className="con">
         <h1>All Countries </h1>
       </div>
-      <div className="all-con-div"><Country/> </div>
+      <div className="all-con-div">
+        <Country />{" "}
+      </div>
 
       {/* footer start here */}
       <Footer />

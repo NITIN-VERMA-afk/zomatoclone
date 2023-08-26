@@ -1,3 +1,5 @@
+
+
 import {Routes,Route} from "react-router-dom"
 import LandingPage from "./pages/LandingPage";
 import Nopage from "./pages/Nopage";
@@ -13,11 +15,19 @@ import './styles/Cardstyle.css'
 import './styles/Loginstyle.css'
 import "./styles/SignUp.css"
 import "./styles/Advcss.css"
+import './styles/work.css'
+import './styles/contact.css'
+import axios from 'axios'
+
+
+axios.default.baseurl='http://localhost:5000'
+axios.default.withcredancials=true
 
 
 
 
 function App() {
+
   return (
        <>
        <Routes>
@@ -31,6 +41,7 @@ function App() {
           <Route path="*" element={<Nopage/>} />
 
        </Routes>
+       
        </>
   );
 }
