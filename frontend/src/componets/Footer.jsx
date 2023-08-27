@@ -8,9 +8,9 @@ const Footer = () => {
           <h1>Zommato</h1>
 
           <div className="buttons">
-            <button className="btn">India</button>
-            <button className="btn">
-              {" "}
+            <button className="btn-in">India</button>
+            <button className="btn-lo">
+           
               <i class="fa-solid fa-globe"></i> Location
             </button>
           </div>
@@ -79,11 +79,11 @@ const Footer = () => {
               </li>
             </ul>
             <button className="app-store">
-              {" "}
+             
               <i class="fa-brands fa-app-store"></i>Dowenload on the app store
             </button>
             <button className="google-app">
-              {" "}
+              
               <i class="fa-brands fa-google-play"></i> get it on google app
             </button>
           </div>
@@ -92,7 +92,7 @@ const Footer = () => {
         <p className="footer-copyright">
           By continuing past this page, you agree to our Terms of Service,
           Cookie Policy, Privacy Policy and Content Policies. All trademarks are
-          properties of their respective owners. 2008-2023{" "}
+          properties of their respective owners. 2008-2023
         </p>
         <p style={{ marginLeft: "12%" }}>© Zomato™ Ltd. All rights reserved.</p>
       </footer>

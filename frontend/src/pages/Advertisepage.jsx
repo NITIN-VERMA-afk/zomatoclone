@@ -130,7 +130,7 @@ const Adervisepage = () => {
               <input type="text" placeholder="Email id" />
               <input type="text" placeholder="phone no" />
             </form>
-            <button className="sub">submit</button>
+            <button className="find-right-btn">submit</button>
           </div>
         </div>
       </div>
@@ -144,8 +144,8 @@ const Adervisepage = () => {
           />
         </div>
         <div className="getZomato-foot-right">
-          <h1>get the zomato app</h1>
-          <p>
+          <h1 className="get-z">get the zomato app</h1>
+          <p className="z-2">
             We will send you a link, open it on your phone to download the app
           </p>
           <div className="radio">
@@ -155,14 +155,14 @@ const Adervisepage = () => {
             <label htmlFor="">phone</label>
           </div>
           <div className="input-btn">
-            <input type="text" />
-            <button>share app link</button>
+            <input placeholder="Email" type="text" />
+            <button className="btn-share">share app link</button>
           </div>
-          <p>dowenload app from</p>
-          <button className="app-store">
+          <p className="dowenload">dowenload app from</p>
+          <button className="app-store-1">
             <i class="fa-brands fa-app-store"></i>Dowenload on the app store
           </button>
-          <button className="google-app">
+          <button className="google-app-1">
             <i class="fa-brands fa-google-play"></i> get it on google app
           </button>
         </div>

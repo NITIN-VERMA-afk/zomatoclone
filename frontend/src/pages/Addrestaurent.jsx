@@ -22,12 +22,12 @@ const Addrestaurent = () => {
           <div className="list">
             <ul>
               <NavLink to="/advertisepage">
-                {" "}
-                <button className="btn-advertise"> Advertise </button>{" "}
+            
+                <button className="btn-advertise"> Advertise </button>
               </NavLink>
               <li>
                 <button className="login">
-                  {" "}
+                  
                   <NavLink
                     to="/login"
                     style={({ isActive }) =>

@@ -59,7 +59,7 @@
 }
 .h1-1200-ad{
     text-align: center;
-    margin: 10px;
+    margin: 10% 0%;
 }
 .howadervtise{
     display: flex;
@@ -95,6 +95,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px 0px;
   
  
 }
@@ -105,6 +106,7 @@
     align-items: center;
     border: 1px solid black;
     padding: 40px;
+    gap: 10px;
 
 }
 .form-ad {
@@ -119,7 +121,7 @@
 
 }
 .form-ad input{
-    padding: 6px 80px;
+    padding: 6px 180px 6px 2px;
 }
 .sub{
     text-align: start;
@@ -130,6 +132,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+     gap: 10%;
 
 
 }
@@ -137,5 +140,41 @@
     height: 500px;
     width: 300px;
 }
+.radio{
+    margin: 10px;
+}
+.app-store-1{
+    padding: 2px 8px;
+    width: 120px;
+    height: 80;
+    background-color: #243B51;
+    color: white;
+}
+.google-app-1{
+    padding: 2px 8px;
+    width: 120px;
+    height: 80;
+    margin: 0 0 0 5px;
+    background-color: #243B51;
+    color: white;
 
-
+}
+.get-z{
+    margin: 20px 0px;
+}
+.z-2{
+    margin: 10px 0px;
+}
+.input-btn input{
+    padding: 10px 80px 10px 2px;
+}
+.btn-share{
+    padding: 10px 10px;
+    background-color: #EF4F5F;
+    color: white;
+    margin-left: 10px;
+}
+.dowenload{
+    margin: 10px 0px;
+    
+}

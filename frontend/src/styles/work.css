@@ -9,9 +9,10 @@
 .work-top-text {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  margin: 25% 20% 0 0;
+  margin: 20% 20% 0% 30%;
+  gap: 10px;
 }
 .t-1 {
   text-align: center;
@@ -67,4 +68,14 @@
   height: 300px;
   width: 200px;
   text-align: center;
+}
+.logo-work{
+  width: 100px;
+  height: 100px;
+}
+.intrested{
+  padding:5px 10px;
+  background-color: #EF4F5F;
+  color: white;
+  font-size:1rem;
 }
